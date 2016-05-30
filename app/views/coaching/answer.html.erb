@@ -1,7 +1,5 @@
-<h1></h1>
-<p>Find me in app/views/coaching/answer.html.erb</p>
 
-<form action="answer" method="get">
-  <input type="text" name="query">
-  <input type="submit">
-</form>
+<%= params[:query] %>
+<%= @answer %>
+
+<%= link_to 'ask another question!', ask_path %>
